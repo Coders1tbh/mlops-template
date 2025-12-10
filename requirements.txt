@@ -1,0 +1,11 @@
+#Tensorflow requirements
+Tensorflow
+
+#GitHub Copilot Lab
+jupyter
+ipython
+numpy
+pandas
+scikit-learn
+matplotlib
+seaborn
