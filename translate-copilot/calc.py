@@ -61,7 +61,7 @@ def divide_command(a, b):
         result = divide(a, b)
         click.echo(click.style(f"The quotient of {a} and {b} is {result}", fg="red"))
     except ValueError as e:
-        click.echo(str(e))
+        click.echo(click.style(str(e),fg="red"))
 
 
 if __name__ == '__main__':
